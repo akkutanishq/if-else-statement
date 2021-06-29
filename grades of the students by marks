@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n=0;
+	
+	printf("Enter the average mark's of the students : ");
+	
+	scanf("%d", &n);
+	
+	if ( n>= 85)
+	{
+		printf(" you recived A grade");
+	}
+	
+ 	else if( n >= 70)
+	{
+		printf(" you recived B grade");
+	}
+	
+	else if(n >= 55)
+	{
+		printf(" you recived C grade");
+	}
+	
+	else if(n >= 40)
+	{
+		printf(" you recived D grade");
+	}
+	
+	else if(n <= 40 )
+	{
+		printf(" you recived F(Fail) grade");
+	}
+	return (0);
+}
